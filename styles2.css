@@ -1,0 +1,45 @@
+/* div {
+  margin: 1em;
+  overflow: hidden;
+} */
+#A {
+  border: 3px solid pink;
+  /* height: 400px; */
+  /* overflow-y: scroll; */
+}
+#B {
+  border: 3px solid yellow;
+  width: 40%;
+  position: relative;
+  height:400px;
+  overflow: hidden;
+
+  /* overflow-y: scroll; */
+}
+#C {
+  border: 3px solid green;
+  width: 60%;
+}
+#D {
+  border: 3px solid orange;
+  height: 6em;
+}
+#E {
+  border: 3px solid red;
+  display: flex;
+  height: 600px;
+}
+.noScrollBar::-webkit-scrollbar {
+  width: 0px;
+}
+#Z {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 3px solid blue;
+  margin: 1em 0;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  width: 17px;
+}
